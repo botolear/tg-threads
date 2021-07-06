@@ -1,0 +1,33 @@
+{
+    "name": "@botol/tg-threads",
+    "version": "0.0.5",
+    "main": "build/botthreads.js",
+    "license": "MIT",
+    "private": false,
+    "author": {
+        "name": "le-ar",
+        "url": "https://github.com/le-ar/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/botolear/tg-threads"
+    },
+    "keywords": [
+        "dipo",
+        "composer",
+        "telegram",
+        "tg",
+        "bot"
+    ],
+    "scripts": {
+        "prepublish": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^15.0.3",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@botol/tg-bot": "^0.x",
+        "wpoll": "^1.0.2"
+    }
+}
